@@ -52,9 +52,9 @@ const Footer = () => {
       </div>
     </div>
     <div className='bg-teal-700 py-4'>
-      <div className=' container mx-auto text-lg text-white flex justify-between'>
-        <p>Copyright 2023,  Travel and Tours</p>
-        <p>Design and developed by Aayusha</p>
+      <div className=' container mx-auto text-lg text-white flex flex-col items-center md:flex-row justify-between'>
+        <p className='mb-5'>Copyright 2023,  Travel and Tours</p>
+        <p5 className='mb-'>Design and developed by Aayusha</p5>
       </div>
     </div>
     </footer>
