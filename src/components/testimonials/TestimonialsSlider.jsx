@@ -57,7 +57,7 @@ const TestimonialsSlider = () => {
         <h2 className="text-3xl font-bold text-center mb-8">Testimonials</h2>
         <Slider {...settings}>
           {testimonialsData.map((testimonial) => (
-            <div className='pr-6 pt-6 relative '>
+            <div className='px-3 pt-6 relative '>
             <div key={testimonial.id} className="p-6 rounded-lg border border-black">
               <div className="absolute top-0 right-10 w-10 color-teal-500 mt-2 mr-2"><img src={quotes} alt="quotes"/></div>
               <p className="text-gray-600 mb-4">{testimonial.text}</p>
