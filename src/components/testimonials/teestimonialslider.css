@@ -1,0 +1,6 @@
+.slick-prev::before, .slick-next:before{
+    color: aqua;
+}
+.slick-next {
+    right: -5px;
+}
